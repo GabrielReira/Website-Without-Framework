@@ -1,0 +1,181 @@
+body{
+	font-family: 'Baloo Da 2', cursive;
+	color: #363636;
+	text-align: justify;
+}
+a:link, a:visited, a:active{
+	color: #1E90FF;
+	text-decoration: none;
+}
+a:hover{
+	color: #019aba;
+}
+
+/* grid 960px */
+.linha{
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+
+/* estilos gerais para todas as páginas do site */
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin: 0 !important;
+}
+.sem-marcador{
+	list-style: none;
+}
+.inline li{
+	display: inline;
+	margin-right: 20px;
+}
+.inline li:last-child{
+	margin-right: 0;
+}
+a.botao, input.botao{
+	background: #00407e;
+	padding: 2px 4px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+}
+.botao:hover{
+	background: #019aba;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	margin:15px 0 10px 0;
+} 
+ul li, ol li{
+	margin-bottom: 5px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/* layout do site */
+.header{
+	background: #dee3e6;
+}
+.logo{
+	font-weight: 400;
+	color: #1E90FF;
+	letter-spacing: -2px;
+}
+.menu{
+	text-align: right;
+	margin-top: 25px;
+}
+.menu li a{
+	padding: 2px 6px;
+	border-radius: 5px;
+}
+.menu li a:hover{
+	background: #012c63;
+	color: white;
+}
+.conteudo-extra{
+	background: #eaf1f2;
+}
+ul.noticias li{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+ul.noticias li img{
+	width: 100px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+}
+ul.noticias li h4{
+	margin: -2px 0 5px 0;
+	font-weight: 500;
+	font-size: 20px;
+}
+ul.noticias li p{
+	margin: 5px 0;
+	font-weight: 300;
+}
+ul.noticias li p a{
+	font-weight: 500;
+}
+.sidebar img{
+	width: 80%;
+	float: center;
+}
+.footer{
+	background: #00407e;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: 100;
+}
+
+/* formulário */
+.contato label{
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.contato input, .contato textarea{
+	display: block;
+	margin-bottom: 15px;
+	padding: 5px 2%;
+	width: 96%;
+}
+.contato textarea{
+	height: 150px;
+}
+.contato input.botao{
+	width: auto;
+}
